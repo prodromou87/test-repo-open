@@ -4,8 +4,8 @@ The training recipes contained in this folder are optimized for Ironwood TPU. He
 
 | <div style="width:100px;">Model ID</div> | Number of chips | GBS | Sequence length | Precision | Step time (seconds) | TFLOPs/sec/chip | Tokens/sec/chip |
 |-----------------|--------------------|--------------|--------------------------|--------------------|-------------|--------------|-----------------------|
-| deepseek-v3     | 128                | 2048         | 4096                     | bf16               | 27.02       | 607.53       | 7,425.75              |
-| deepseek-v3     | 128                | 2048         | 4096                     | fp4_full           | 22.47       | 730.60       | 7,917.15              |
+| deepseek-v3     | 128                | 2048         | 4096                     | bf16               | 27.02       | 607.53       | 2,425.75              |
+| deepseek-v3     | 128                | 2048         | 4096                     | fp8_full           | 22.47       | 730.60       | 7,917.15              |
 | deepseek-v3     | 256                | 4096         | 4096                     | bf16               | 26.79       | 612.66       | 7,446.25              |
 | deepseek-v3     | 256                | 4096         | 4096                     | fp8_full           | 22.08       | 743.46       | 2,968.49              |
 | gpt-oss-120b    | 64                 | 1280         | 8192                     | bf16               | 17.10       | 330.25       | 9,581.66              |
