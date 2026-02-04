@@ -1,4 +1,4 @@
-# Training Recipes for Ironwood TPU
+# aprodromou's Training Recipes for Ironwood TPU
 
 The training recipes contained in this folder are optimized for Ironwood TPU. Here is a summary of the included recipes.
 
